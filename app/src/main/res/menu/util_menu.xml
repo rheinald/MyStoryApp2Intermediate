@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/to_add_story"
+        android:icon="@drawable/ic_baseline_add_white_24px"
+        android:title="@string/add_story"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/to_map"
+        android:icon="@drawable/ic_baseline_map_white_24px"
+        android:title="@string/Map"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_baseline_exit_to_app_white_24px"
+        android:title="@string/logout"
+        app:showAsAction="always" />
+</menu>

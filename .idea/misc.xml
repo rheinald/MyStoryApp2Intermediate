@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/MyStoryApp2Intermediate/app/src/main/res/drawable/ic_baseline_add_white_24px.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/MyStoryApp2Intermediate/app/src/main/res/drawable/ic_baseline_person_24px.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/MyStoryApp2Intermediate/app/src/main/res/drawable/ic_capture.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/MyStoryApp2Intermediate/app/src/main/res/drawable/ic_place_holder.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/MyStoryApp2Intermediate/app/src/main/res/layout/activity_add_story.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/MyStoryApp2Intermediate/app/src/main/res/layout/activity_camera.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/MyStoryApp2Intermediate/app/src/main/res/layout/activity_detail.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/MyStoryApp2Intermediate/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/MyStoryApp2Intermediate/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/MyStoryApp2Intermediate/app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/MyStoryApp2Intermediate/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/MyStoryApp2Intermediate/app/src/main/res/layout/item_loading.xml" value="0.33" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/MyStoryApp2Intermediate/app/src/main/res/layout/item_story.xml" value="0.1" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/MyStoryApp2Intermediate/app/src/main/res/menu/logout_only_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/MyStoryApp2Intermediate/app/src/main/res/menu/util_menu.xml" value="0.11018518518518519" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

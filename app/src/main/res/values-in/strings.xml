@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyStoryApp2Intermediate</string>
+    <string name="enter_email">Masukkan Email</string>
+    <string name="enter_password">Masukkan Kata Sandi</string>
+    <string name="sign_in">Sign In</string>
+    <string name="login">MASUK</string>
+    <string name="enter_name">Masukkan Nama</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register">DAFTAR</string>
+    <string name="create_password">Buat Kata Sandi</string>
+    <string name="description">Deskripsi</string>
+    <string name="name">Nama</string>
+    <string name="camera">KAMERA</string>
+    <string name="gallery">GALLERY</string>
+    <string name="upload">Unggah</string>
+    <string name="no_permission">Tidak Diizinkan</string>
+    <string name="fail_capture">Gagal mengambil gambar,</string>
+    <string name="logout">Keluar</string>
+    <string name="judul">MyStoryAppSubmission</string>
+    <string name="image">Gambar</string>
+    <string name="add_story">Tambahkan Cerita</string>
+    <string name="email_invalid">Email tidak valid!</string>
+    <string name="wrong_password_less_6">Minimal 6 Karakter</string>
+    <string name="empty_name">Mohon, Masukkan Name!</string>
+    <string name="empty_email">Mohon, Masukkan Email!</string>
+    <string name="empty_password">Mohon, Masukkan Kata Sandi!</string>
+    <string name="feature_not_ready">Fitur ini belum tersedia.</string>
+    <string name="failed_retrofit">Instance Retrofit Gagal</string>
+    <string name="choose_a_picture">Pilih sebuah Gambar</string>
+    <string name="change_to_otherside_camera">Berubah menjadi Kamera Depan atau Belakang</string>
+    <string name="shot_camera">Tekan Tombol untuk Memotret</string>
+    <string name="success_registration">Registrasi Sukses</string>
+    <string name="failed_registration">Registrasi Gagal</string>
+    <string name="story_uploaded">Cerita telah diunggah</string>
+    <string name="upload_story_failed">Cerita gagal diunggah</string>
+    <string name="share_your_story">Share your story</string>
+    <string name="map_openned">Peta telah dibuka</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="failed_to_show_camera">Gagal Memunculkan Kamera.</string>
+    <string name="retry">Coba Lagi</string>
+    <string name="location_not_found">Lokasi tidak ditemukan. Coba Lagi</string>
+    <string name="Map">Peta</string>
+</resources>

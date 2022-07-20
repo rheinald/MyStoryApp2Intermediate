@@ -11,7 +11,6 @@ import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.ViewModelProvider
-import androidx.paging.PagingData
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.androidstudiorheinald.mystoryapp2intermediate.R
 import com.androidstudiorheinald.mystoryapp2intermediate.StoryRepository
@@ -20,7 +19,6 @@ import com.androidstudiorheinald.mystoryapp2intermediate.adapter.LoadingStateAda
 import com.androidstudiorheinald.mystoryapp2intermediate.api.ApiConfig
 import com.androidstudiorheinald.mystoryapp2intermediate.databinding.ActivityMainBinding
 import com.androidstudiorheinald.mystoryapp2intermediate.model.AuthenticationModel
-import com.androidstudiorheinald.mystoryapp2intermediate.model.ListStoryItem
 import com.androidstudiorheinald.mystoryapp2intermediate.util.AuthenticationPreferences
 import com.androidstudiorheinald.mystoryapp2intermediate.viewmodel.MainViewModel
 import com.androidstudiorheinald.mystoryapp2intermediate.viewmodel.PagingReposViewModel
@@ -64,7 +62,8 @@ class MainActivity : AppCompatActivity() {
                 pagingReposViewModel.story.observe(this) {
                     listStoryAdapter.submitData(lifecycle, it)
                 }
-            } else {
+            }
+            if(!auth.isLogin) {
                 val intent = Intent(this, LoginActivity::class.java)
                 startActivity(intent)
                 finish()
@@ -86,14 +85,10 @@ class MainActivity : AppCompatActivity() {
         when(item.itemId) {
             R.id.logout -> {
                 login(false)
-                val intent = Intent(this, LoginActivity::class.java)
-                startActivity(intent)
-                finish()
             }
             R.id.to_map -> {
                 val intent = Intent(this, MapsActivity::class.java)
                 startActivity(intent)
-                finish()
             }
             R.id.to_add_story -> {
                 mainViewModel.getAuthentication().observe(this) { auth ->

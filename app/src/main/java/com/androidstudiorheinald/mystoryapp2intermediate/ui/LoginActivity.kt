@@ -46,6 +46,7 @@ class LoginActivity : AppCompatActivity() {
                 val intent = Intent(this@LoginActivity, MainActivity::class.java)
                 intent.putExtra(MainActivity.EXTRA_STORY, auth.token)
                 startActivity(intent)
+                finish()
             }
         }
 

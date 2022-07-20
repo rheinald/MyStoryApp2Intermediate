@@ -27,7 +27,7 @@ class ViewModelFactory(private val pref: AuthenticationPreferences): ViewModelPr
     }
 }
 
-class PagingViewModelFactory(private val storyRepository: StoryRepository): ViewModelProvider.NewInstanceFactory() {
+class PagingViewModelFactory(private val storyRepository: StoryRepository): ViewModelProvider.Factory {
 
     @Suppress("UNCHECKED_CAST")
     override fun <T : ViewModel> create(modelClass: Class<T>): T {

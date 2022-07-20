@@ -168,8 +168,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         when(item.itemId) {
             R.id.logout -> {
                 login(false)
-                val intent = Intent(this, LoginActivity::class.java)
-                startActivity(intent)
                 finish()
             }
         }
